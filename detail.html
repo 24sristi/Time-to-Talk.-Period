@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+    <link rel="stylesheet" href="css/forum_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!--NavBar Section-->
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="forums.html">Forums</a></li>
+                    <li class="nav-item"><a href="posts.html">Posts</a></li>
+                    <li class="nav-item"><a href="detail.html">Detail</a></li>
+                </ul>
+            </nav>
+            <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
+            <div class="brand" style="color:black; font-size: 30px;">Time To Talk, Period.</div>
+        </div>
+        <!--SearchBox Section-->
+        <div class="search-box">
+            <div>
+                <select name="" id="">
+                    <option value="Everything">Everything</option>
+                    <option value="Titles">Titles</option>
+                    <option value="Descriptions">Descriptions</option>
+                </select>
+                <input type="text" name="q" placeholder="search ...">
+                <button><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    <div class="container">
+        <!--Navigation-->
+        <div class="navigate">
+            <span><a href="" style="color:black">Time To Talk, Period. - Forums</a> >> <a href="" style="color:black">Let's have a conversation</a> >><a href="" style="color:black">Your menstrual cycle and your health </a></span>
+        </div>
+
+        <!--Topic Section-->
+        <div class="topic-container">
+            <!--Original thread-->
+            <div class="head">
+                <div class="authors">Author: Anisha</div>
+                <div class="content">Topic: Menstrual cycle and health. (Read 1325 Times)</div>
+            </div>
+
+            <div class="body">
+                <div class="authors">
+                    <div class="username"><a href="">@aastha2711</a></div>
+                    <div>Doctor</div>
+                    <img src="https://image.freepik.com/free-photo/half-profile-image-beautiful-young-woman-with-bob-hairdo-posing-gazing-with-eyes-full-reproach-suspicion-human-facial-expressions-emotions-reaction-feelings_343059-4660.jpg" alt="">
+                    <div>Posts: <u>45</u></div>
+                    <div>Points: <u>4586</u></div>
+                </div>
+                <div class="content">
+                    Throughout your cycle, your hormones, which control your menstrual cycle, can also affect other aspects of your health — emotionally, mentally, and physically.
+
+
+                    <br>To see how it looks like.In the first half of your cycle (weeks one and two after your period starts during a typical 28-day cycle)Your energy levels might be higher.<br>
+                    Your memory may be better, and your pain tolerance may be higher during these weeks. After your period ends is a good time to schedule a Pap test, as your cervical fluid is thinnest during this week, which can help show the clearest results.
+
+                    <br>
+                    <hr>
+                    Regards @aastha2711
+                    <br>
+                    <div class="comment">
+                        <button onclick="showComment()">Comment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Comment Area-->
+        <div class="comment-area hide" id="comment-area">
+            <textarea name="comment" id="" placeholder="comment here ... "></textarea>
+            <input type="submit" value="submit">
+        </div>
+
+        <!--Comments Section-->
+        <div class="comments-container">
+            <div class="body">
+                <div class="authors">
+                    <div class="username"><a href="">@shalini1</a></div>
+                    <div>Doctor</div>
+                    <img src="https://image.freepik.com/free-photo/half-profile-image-cheerful-attractive-middle-aged-woman-with-short-gray-hair-wrinkles-having-fun-laughing-joke-smiling-broadly-camera_343059-1891.jpg" alt="">
+                    <div>Posts: <u>455</u></div>
+                    <div>Points: <u>4586</u></div>
+                </div>
+                <div class="content">
+                    In the second half of your cycle (beginning with ovulation)
+
+
+                    <br>You may feel sluggish or forgetful.
+                    <br><br>
+                    If you have a health problem, such as depression, irritable bowel syndrome, migraine, or asthma, your symptoms may get worse right before your period starts.
+                    <br>
+                    <br>
+                    <div class="comment">
+                        <button onclick="showReply()">Reply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Reply Area-->
+        <div class="comment-area hide" id="reply-area">
+            <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+            <input type="submit" value="submit">
+        </div>
+
+
+        <!--Another Comment With replies-->
+        <div class="comments-container">
+            <div class="body">
+                <div class="authors">
+                    <div class="username"><a href="">@kruyti</a></div>
+                    <div>Student</div>
+                    <img src="https://image.freepik.com/free-photo/woman-takes-images-holding-photographic-camera-hands_176532-12497.jpg" alt="">
+                    <div>Posts: <u>455</u></div>
+                    <div>Points: <u>4586</u></div>
+                </div>
+                <div class="content">
+                    Some period problems may lead to other health problems.
+                    <br> Also, symptoms of other health problems might be worse or get better at certain times of your menstrual cycle.
+                    
+                    <br>
+                    <br>
+                    <div class="comment">
+                        <button onclick="showReply()">Reply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Reply Area-->
+        <div class="comment-area hide" id="reply-area">
+            <textarea name="reply" id="" placeholder="reply here ... "></textarea>
+            <input type="submit" value="submit">
+        </div>
+
+        
+
+    </div>
+    <footer>
+        <span>&copy;  Time To Talk, Period. | All Rights Reserved</span>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
