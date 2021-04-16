@@ -1,0 +1,165 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+
+    background-size: contain;
+    background-image:url("https://image.freepik.com/free-photo/period-calendar-with-copy-space_23-2148439185.jpg");
+    background-repeat: no-repeat;
+    background-color: #FFECDD;
+    background-size:cover;
+    height: 100vh;
+    min-width: 100vw;
+    padding-left: 8%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+
+}
+.details{
+    border : 1px solid white;
+    background-color: white;
+    border-radius: 12px;
+    width: 27%;
+    height: 74%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    
+}
+.heading h1{
+    font-weight: 700;
+    font-size: 6vh;
+    margin-bottom: 5px;
+    color:#545D99;
+}
+.heading h3{
+    font-size: 12px;
+    font-weight: 600;
+    color:#545D99;
+    margin-bottom: 30px;
+}
+label{
+    font-size: large;
+    font-weight: 600;
+    color: rgb(71, 63, 63);
+}
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1.5px solid  rgba(128,128,128,0.692);
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: small;
+    font-weight: 600;
+    color: gray;
+    padding: 10px;
+    padding-left: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.twoBtns{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.login{
+    height: 35px;
+    width: 80px;
+    border-radius: 20px;
+    color: rgb(71, 63, 63);
+    background-color:#87CEEB;
+    font-size: small;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+}
+.register{
+    height: 35px;
+    width: 80px;
+    border-radius: 20px;
+    color: rgb(71, 63, 63);
+    background-color:  #87CEEB;
+    font-size: small;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+}
+.options{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submit{
+    height: 35px;
+    width: 100px;
+    border-radius: 30px;
+    color: rgb(71, 63, 63);
+    background-color: #87CEEB;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+.forget{
+    
+        height: 45px;
+        width: 160px;
+        border-radius: 30px;
+        color: rgb(71, 63, 63);
+        font-size: small;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin: auto;
+    
+}
+#message{
+    color: red;
+    font-weight: 600;
+    font-size: medium;
+    margin: 0px 0px 10px 0px;
+}
+.register:hover,.submit:hover,.login:hover{
+    transform: scale(1.2);
+}
+/* .pic{
+    background-image: url(./mask-required.png);
+    background-size: cover;
+    font-size: 70px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    color: #FEDAB8;
+    max-height: 300px;
+    max-width: 400px;
+    position: absolute;
+    top: 13%;
+    left: 36%;
+} */
